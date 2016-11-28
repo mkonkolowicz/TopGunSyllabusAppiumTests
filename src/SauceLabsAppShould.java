@@ -27,6 +27,7 @@ public class SauceLabsAppShould {
 		  caps.setCapability("deviceOrientation", "portrait");
 		  caps.setCapability("platformVersion","10.0");
 		  caps.setCapability("platformName", "iOS");
+		  caps.setCapability("platform", "MAC");
 		  caps.setCapability("browserName", "");
 		  caps.setCapability("app","sauce-storage:TopGunSyllabusiPhone.zip");
 
